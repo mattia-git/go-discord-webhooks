@@ -11,8 +11,7 @@ webhook.SetAvatarURL("https://upload.wikimedia.org/wikipedia/commons/2/20/Kielba
 embed := webhook.NewEmbed()
 
 embed.SetAuthor("Sample author", "", "")
-embed.SetDescription(t.ProductName)
-embed.SetURL(t.ProductURL)
+embed.SetDescription("The description to our embed")
 
 embed.AddField("This is a field", "This is the value", false)
 embed.AddField("Another field", "Another value", false)
